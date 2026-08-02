@@ -1,9 +1,28 @@
 aid: tapstitch
 name: Tapstitch
-description: 'Tapstitch is a company surfaced as a portfolio company of forerunner-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: commerce. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Tapstitch is a premium, fashion-focused print-on-demand (POD) and dropshipping
+  platform that lets creators and brands design, produce, and sell custom apparel with no
+  inventory, no minimums, and no subscription fees. It provides heavyweight streetwear blanks
+  (250-400+ GSM), DTG and DTF printing, white-label fulfillment, and fashion collection
+  development, with native integrations into Shopify, WooCommerce, Etsy, Wix, Squarespace, and
+  TikTok Shop for automatic product syncing, order routing, and fulfillment tracking. Founded
+  to empower self-expression through clothing, Tapstitch has served 60,000+ creators, shipped
+  over one million garments, and raised a $24.8M Series A led by Forerunner Ventures. Tapstitch
+  does not currently publish a public developer/REST API for headless or custom storefronts;
+  integration is delivered through its e-commerce platform apps and connectors.'
 url: https://raw.githubusercontent.com/api-evangelist/tapstitch/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://files.tapstitch.com/tapstitch/site-static/tapstitch/images/seo/2025-01-17.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Commerce
+- Print on Demand
+- Apparel
+- Dropshipping
+- Ecommerce
+- Fashion
+- Fulfillment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +49,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://tapstitch.com
+  url: https://www.tapstitch.com
+- type: DomainSecurity
+  url: security/tapstitch-domain-security.yml
+- type: Support
+  url: https://www.tapstitch.com/help-center
+- type: Blog
+  url: https://www.tapstitch.com/academy
+- type: TermsOfService
+  url: https://www.tapstitch.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.tapstitch.com/privacy-policy
+- type: SignUp
+  url: https://www.tapstitch.com/register
+- type: Login
+  url: https://www.tapstitch.com/login
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
