@@ -11,6 +11,7 @@ checked:
 - https://n8n.io/integrations/tapstitch/
 - https://zapier.com/apps/tapstitch/integrations
 - bigcommerce/integrations/bigcommerce-integration-edges.yml
+- wix/integrations/wix-integration-edges.yml
 summary: null
 marketplace_apps: []
 edges:
@@ -31,4 +32,23 @@ edges:
   detected: '2026-10-20'
   detected_by: mirror-platform-listings.py
   category: Shipping & Fulfillment, Drop Shipping
+- partner_name: Wix (own)
+  partner: wix
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://www.wix.com/app-market/developer/tapstitch
+  mirror_of: wix/integrations/wix-integration-edges.yml
+  apps:
+  - 'Tapstitch: POD & Dropshipping'
+  listing_count: 1
+  detected: '2026-10-22'
+  detected_by: mirror-platform-listings.py
+  category: Print on Demand
+  publisher_verified:
+  - Verified by Wix
 templates: []

@@ -16,3 +16,16 @@
   relationship: platform-app
   status: not-a-workflow
   arazzo: null
+- slug: tapstitch-wix-own
+  label: Wix (own)
+  partner: wix
+  partner_name: Wix (own)
+  category: Print on Demand
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://www.wix.com/app-market/developer/tapstitch
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
